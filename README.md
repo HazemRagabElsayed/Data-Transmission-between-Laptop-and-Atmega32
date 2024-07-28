@@ -1,6 +1,3 @@
-# Data-Transmission-between-Laptop-and-Atmega32
-
-
 <h1 align="center">Data Transmission between Laptop and Atmega32
 </h1>
 
