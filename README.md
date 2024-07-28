@@ -19,7 +19,7 @@
 Description:
 </h2>
 
-this is a practical application of UART communication protocol in which a microcontroller (Atmega32) controls LCD and displaying options on it(1: Send to microcontroller and 2:receive from microcontroller) then I can select one of these options by pressing 1 on my keyboard of Laptop to send data to microcontroller and display it on LCD or pressing 2 on my keyboard of Laptop to receive data from microcontroller which is displayed on Tera term Terminal (This is message from Atmega32) also if I'm sending data from Laptop I can delete all data displayed on LCD, delete one character diplayed on LCD or Jump to second row (line) to continue typing characters on LCD and there is a feuture that you can return to the place you jumped from when you delete all characters in second line
+this is a practical application of UART communication protocol in which a microcontroller (Atmega32) controls LCD and displaying options on it(1: Send to microcontroller and 2:receive from microcontroller) then I can select one of these options by pressing 1 on my keyboard of Laptop to send data to microcontroller and display it on LCD or pressing 2 on my keyboard of Laptop to receive data from microcontroller which is displayed on Tera term Terminal (This is message from Atmega32) also if I'm sending data from Laptop I can delete all data displayed on LCD using (-), delete one character diplayed on LCD using (Backspace) or Jump to second row (line) using (Enter) to continue typing characters on LCD and there is a feuture that you can return to the place you jumped from when you delete all characters in second line using (Backspace)
 
 ###
 
@@ -30,8 +30,6 @@ Devices used:
 -Atmega32 (where we put our code to do specific functions)
 
 -LCD 16x2 (for displaying Distance)
-
--Laptop
 
 -USB to TTL Converter
 
